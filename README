@@ -1,0 +1,12 @@
+Simple neuroevolution example
+
+nn.py contains the artificial neural network code
+corridor.py contains the corridor navigating simulation
+evolve.py runs evolution
+
+to run:
+python evolve.py evolve brain.dat [runs evolution for 200 generations, saves output brain in brain.dat]
+
+to see the output:
+python evolve.py load brain.dat [loads the brain stored in brain.dat and runs it in the corridor simualtion]
+ 
